@@ -7,12 +7,7 @@ int nhap(int&);
 int main()
 {
     int n;
-    nhap(n);
+    cin >> n;
     cout << "hello hi ihi" << n;
     return 0;
-}
-int nhap(int &n)
-{
-    cout << "Nhap n: ";
-    cin >> n;
 }
